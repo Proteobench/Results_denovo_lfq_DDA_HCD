@@ -1,1 +1,54 @@
-"{\"id\":\"DeepNovo_20250619_105921\",\"software_name\":\"DeepNovo\",\"software_version\":\"1.0\",\"checkpoint\":null,\"n_beams\":5,\"n_peaks\":150,\"precursor_mass_tolerance\":50,\"min_peptide_length\":6,\"max_peptide_length\":100,\"min_mz\":50.0,\"max_mz\":2500.0,\"min_intensity\":0.01,\"max_intensity\":null,\"tokens\":\"G; A; S; P; V; T; C(+57.02); L; I; N; D; Q; K; E; M; H; F; R; Y; W; M(+15.99); N(+.98); Q(+.98); +42.011; +43.006; -17.027; +43.006-17.027\",\"min_precursor_charge\":null,\"max_precursor_charge\":10,\"remove_precursor_tol\":2.0,\"isotope_error_range\":\"[0, 1]\",\"decoding_strategy\":\"beam search\",\"is_temporary\":true,\"intermediate_hash\":\"b6ef692d986955d3206886c9ddf4689d09bef385\",\"results\":{\"peptide\":{\"exact\":{\"precision\":0.1545256689,\"recall\":0.1341111111,\"coverage\":0.8678888889},\"mass\":{\"precision\":0.3422097043,\"recall\":0.297,\"coverage\":0.8678888889}},\"aa\":{\"exact\":{\"precision\":0.6150826867,\"recall\":0.4791136173,\"coverage\":0.7789418036},\"mass\":{\"precision\":0.6150826867,\"recall\":0.4791136173,\"coverage\":0.7789418036}}},\"precision\":0.3422097043,\"recall\":0.297,\"comments\":\"\",\"proteobench_version\":\"0.8.11.dev13+gdf97b65.d20250521\",\"old_new\":\"old\"}"
+{
+  "id": "DeepNovo_20250619_105921",
+  "software_name": "DeepNovo",
+  "software_version": "1.0",
+  "checkpoint": null,
+  "n_beams": 5,
+  "n_peaks": 150,
+  "precursor_mass_tolerance": 50,
+  "min_peptide_length": 6,
+  "max_peptide_length": 100,
+  "min_mz": 50.0,
+  "max_mz": 2500.0,
+  "min_intensity": 0.01,
+  "max_intensity": null,
+  "tokens": "G; A; S; P; V; T; C(+57.02); L; I; N; D; Q; K; E; M; H; F; R; Y; W; M(+15.99); N(+.98); Q(+.98); +42.011; +43.006; -17.027; +43.006-17.027",
+  "min_precursor_charge": null,
+  "max_precursor_charge": 10,
+  "remove_precursor_tol": 2.0,
+  "isotope_error_range": "[0, 1]",
+  "decoding_strategy": "beam search",
+  "is_temporary": true,
+  "intermediate_hash": "b6ef692d986955d3206886c9ddf4689d09bef385",
+  "results": {
+    "peptide": {
+      "exact": {
+        "precision": 0.15452566892843425,
+        "recall": 0.1341111111111111,
+        "coverage": 0.8678888888888889
+      },
+      "mass": {
+        "precision": 0.34220970426321856,
+        "recall": 0.297,
+        "coverage": 0.8678888888888889
+      }
+    },
+    "aa": {
+      "exact": {
+        "precision": 0.6150826866954732,
+        "recall": 0.47911361733997093,
+        "coverage": 0.778941803603683
+      },
+      "mass": {
+        "precision": 0.6150826866954732,
+        "recall": 0.47911361733997093,
+        "coverage": 0.778941803603683
+      }
+    }
+  },
+  "precision": 0.34220970426321856,
+  "recall": 0.297,
+  "comments": "",
+  "proteobench_version": "0.8.11.dev13+gdf97b65.d20250521",
+  "old_new": "old"
+}
