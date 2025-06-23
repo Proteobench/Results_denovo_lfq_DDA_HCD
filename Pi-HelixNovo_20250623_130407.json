@@ -19,7 +19,7 @@
   "isotope_error_range": "[0, 1]",
   "decoding_strategy": "beam search",
   "is_temporary": true,
-  "intermediate_hash": "79fcfd8c7195a10e54c5bca8b0eeb65c69af2d75",
+  "intermediate_hash": "79fcfd8c7195a10e54c5bca8b0eeb65c69f2d75",
   "results": {
     "peptide": {
       "exact": {
