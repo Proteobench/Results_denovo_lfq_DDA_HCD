@@ -1,0 +1,222 @@
+{
+  "id": "DeepNovo_20250623_130347",
+  "software_name": "DeepNovo",
+  "software_version": "1.0",
+  "checkpoint": null,
+  "n_beams": 5,
+  "n_peaks": 150,
+  "precursor_mass_tolerance": 50,
+  "min_peptide_length": 6,
+  "max_peptide_length": 100,
+  "min_mz": 50.0,
+  "max_mz": 2500.0,
+  "min_intensity": 0.01,
+  "max_intensity": null,
+  "tokens": "G; A; S; P; V; T; C(+57.02); L; I; N; D; Q; K; E; M; H; F; R; Y; W; M(+15.99); N(+.98); Q(+.98); +42.011; +43.006; -17.027; +43.006-17.027",
+  "min_precursor_charge": null,
+  "max_precursor_charge": 10,
+  "remove_precursor_tol": 2.0,
+  "isotope_error_range": "[0, 1]",
+  "decoding_strategy": "beam search",
+  "is_temporary": true,
+  "intermediate_hash": "4789d72956ce1a0e8fc390c8a55c355e1f5cc377",
+  "results": {
+    "peptide": {
+      "exact": {
+        "precision": 0.15452566892843425,
+        "recall": 0.1341111111111111,
+        "coverage": 0.8678888888888889,
+        "in_depth": {
+          "PTM": {
+            "M-Oxidation": {
+              "counts_gt": 735,
+              "correct_gt": 218,
+              "counts_dn": 285,
+              "correct_dn": 221
+            },
+            "Q-Deamidation": {
+              "counts_gt": 153,
+              "correct_gt": 0,
+              "counts_dn": 1,
+              "correct_dn": 0
+            },
+            "N-Deamidation": {
+              "counts_gt": 513,
+              "correct_gt": 15,
+              "counts_dn": 20,
+              "correct_dn": 15
+            },
+            "N-term Acetylation": {
+              "counts_gt": 80,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Carbamylation": {
+              "counts_gt": 181,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Ammonia-loss": {
+              "counts_gt": 162,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            }
+          },
+          "Spectrum": null,
+          "Species": null
+        }
+      },
+      "mass": {
+        "precision": 0.34220970426321856,
+        "recall": 0.297,
+        "coverage": 0.8678888888888889,
+        "in_depth": {
+          "PTM": {
+            "M-Oxidation": {
+              "counts_gt": 735,
+              "correct_gt": 218,
+              "counts_dn": 285,
+              "correct_dn": 221
+            },
+            "Q-Deamidation": {
+              "counts_gt": 153,
+              "correct_gt": 0,
+              "counts_dn": 1,
+              "correct_dn": 0
+            },
+            "N-Deamidation": {
+              "counts_gt": 513,
+              "correct_gt": 15,
+              "counts_dn": 20,
+              "correct_dn": 15
+            },
+            "N-term Acetylation": {
+              "counts_gt": 80,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Carbamylation": {
+              "counts_gt": 181,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Ammonia-loss": {
+              "counts_gt": 162,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            }
+          },
+          "Spectrum": null,
+          "Species": null
+        }
+      }
+    },
+    "aa": {
+      "exact": {
+        "precision": 0.5897789742777639,
+        "recall": 0.4594034979514516,
+        "coverage": 0.778941803603683,
+        "in_depth": {
+          "PTM": {
+            "M-Oxidation": {
+              "counts_gt": 735,
+              "correct_gt": 218,
+              "counts_dn": 285,
+              "correct_dn": 221
+            },
+            "Q-Deamidation": {
+              "counts_gt": 153,
+              "correct_gt": 0,
+              "counts_dn": 1,
+              "correct_dn": 0
+            },
+            "N-Deamidation": {
+              "counts_gt": 513,
+              "correct_gt": 15,
+              "counts_dn": 20,
+              "correct_dn": 15
+            },
+            "N-term Acetylation": {
+              "counts_gt": 80,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Carbamylation": {
+              "counts_gt": 181,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Ammonia-loss": {
+              "counts_gt": 162,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            }
+          },
+          "Spectrum": null,
+          "Species": null
+        }
+      },
+      "mass": {
+        "precision": 0.6150713752460241,
+        "recall": 0.47910480637913566,
+        "coverage": 0.778941803603683,
+        "in_depth": {
+          "PTM": {
+            "M-Oxidation": {
+              "counts_gt": 735,
+              "correct_gt": 218,
+              "counts_dn": 285,
+              "correct_dn": 221
+            },
+            "Q-Deamidation": {
+              "counts_gt": 153,
+              "correct_gt": 0,
+              "counts_dn": 1,
+              "correct_dn": 0
+            },
+            "N-Deamidation": {
+              "counts_gt": 513,
+              "correct_gt": 15,
+              "counts_dn": 20,
+              "correct_dn": 15
+            },
+            "N-term Acetylation": {
+              "counts_gt": 80,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Carbamylation": {
+              "counts_gt": 181,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            },
+            "N-term Ammonia-loss": {
+              "counts_gt": 162,
+              "correct_gt": 0,
+              "counts_dn": 0,
+              "correct_dn": 0
+            }
+          },
+          "Spectrum": null,
+          "Species": null
+        }
+      }
+    }
+  },
+  "precision": 0.34220970426321856,
+  "recall": 0.297,
+  "comments": "",
+  "proteobench_version": "0.8.11.dev13+gdf97b65.d20250521",
+  "old_new": "old"
+}
